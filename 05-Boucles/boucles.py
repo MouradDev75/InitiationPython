@@ -33,6 +33,7 @@ for x in [1,1,1,1,1]:
 nombres = range(10) # de 0 à  9 -> s'arrête à n-1
 
 for n in nombres:
+    
     print(n)
 
 # affichez bonjour 8 fois
@@ -46,7 +47,7 @@ print(">>>>>>>>>>>>> While:")
 
 
 print('<<<< boucle infinie:')
-# boucle infinie: on gérer la sortie (break)
+# boucle infinie: on doit gérer la sortie (break)
 while True:
     nb = int(input('nombre entre 1 et 10: '))
     if nb >= 1 and nb <= 10:
@@ -73,3 +74,13 @@ for lettre in prenom:
         break
 
     print(lettre) #slva
+
+
+prime = 150
+absence = True # False
+
+if absence:
+    print('pas de prime')
+else:
+    print('Salaire', prime)
+
