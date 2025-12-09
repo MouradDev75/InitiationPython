@@ -1,5 +1,9 @@
 1) Définir une fonction qui renvoie la somme des éléments d'une liste d'entiers
+def somme_liste(entiers):
+    pass
 2) Définir une fonction qui renvoie la moyenne des éléments d'une liste d'entiers
+def moyenne_liste(entiers):
+    pass
 3) Définir une fonction qui affiche la table de multiplication d'un nombre, où le premier 
 et le dernier multiple sont des params de la fonction.
 
