@@ -130,3 +130,38 @@ def carre(e):
 
 nombres_carres = [carre(x) for x in nombres]
 print(nombres_carres)
+
+print(">>>>>>>>> multiples conditions:")
+nombres = range(10)
+
+# nouvelle liste ne contenant que des nombres pairs supérieurs à 4
+
+# sol1:
+
+result = [e for e in nombres if e % 2 == 0 and e > 4]
+
+# sol2: aucune limite sur le nombre de if
+
+new_result = [e for e in nombres if e % 2 == 0 if e > 4 ]
+print(result)
+print(new_result)
+
+print(">>>>>> random pour les listes:")
+from random import choice, choices, sample, shuffle
+
+cartes = [x for x in range(1, 11)]
+
+print('choice: élément aléatoire')
+print(choice(cartes))
+
+print("choices: ensemble d'éléments aléatoire")
+
+print(choices(cartes, k=5))
+
+print("sample: ensemble d'éléments aléatoire")
+
+print(sample(cartes,3))
+
+print("shuffle: mélanger les éléments d'une liste")
+shuffle(cartes)
+print(cartes)
