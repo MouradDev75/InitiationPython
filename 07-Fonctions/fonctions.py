@@ -250,6 +250,10 @@ gen_pair = generateur_nombres_pairs()
 
 value = next(gen_pair)
 
-while value != None:
-    print(value)
-    value = next(gen_pair)
+try:
+    while value != None:
+        print(value)
+        value = next(gen_pair)
+
+except:
+    pass
